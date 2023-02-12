@@ -51,18 +51,26 @@ Your assignment is to use Built-In java classes to:
 1. Look up the latitude and longitude coordinates in any online map you can find via Google.
 1. Screenshot the map and add it into the **images** folder of this project.
 1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
-
+   ![coordinates](images/coordinates.jpg)
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
     * What is the **access modifer** (e.g. public, private, protected)?
-    * Is it a **Class method** or an **object Instance method**, how do you know?
-    * What is its **return data-type**?
-    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+* public
+  * Is it a **Class method** or an **object Instance method**, how do you know?
+* class method, it doesn't need to have an object created to use it
+  * What is its **return data-type**?
+* file
+  * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+* 1, file
+---
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
-    * What is not familiar to you?
-    * Do the **for** loops make sense, and if so, tell me what you think they do?
+* the stuff like System.out and the framework for setting up the method
+  * What is not familiar to you?
+* everything else, AKA most of it
+  * Do the **for** loops make sense, and if so, tell me what you think they do?
+* I'm not sure. I think I understand the function of "if" as being "only run this part if these conditions are met", but I don't know what "for" is... for.
 
 ## PART 4 - Turn in
 
